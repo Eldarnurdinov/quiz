@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #00000080;
+    display: flex;
+    justify-content: center;
+    height: 100svh;
+    padding-top: 160px;
+    display: none;
+}
+
+.welcome-modal{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 38px;
+}
+.welcome-modal h3{
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.welcome-modal p{
+    line-height: 28px;
+}
+.welcome-modal button{
+    margin-top: 14px;
+}
+.btn-blue{
+    background-color: #1DA1F2;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+} 
+.welcome-modal p:nth-child(4){
+    margin-top: 14px;
+}
+
+/* quiz  */
+.container{
+width: 475px;
+margin: auto;
+}
+.container > h2{
+text-align: center;
+margin-bottom: 72px;
+}
+.quiz-box{
+border: 1px solid #cccccc;
+}
+.quiz-count{
+    border-bottom: 1px solid #cccccc;
+    padding: 8px 10px;
+}
+.quiz-count span .bi-arrow-left,
+.quiz-count span .bi-arrow-right{
+ color: #1DA1F2;
+
+}
+.question{
+    padding: 20px;
+}
+.q-img{}
+.q-img img,
+.q-btns button{
+    width: 100%;
+    display: block;
+}
+.q-btns button{
+    margin-bottom: 5px;
+}
+.q-btns p{
+    text-align: center;
+}
+.btn-next{
+position: absolute; 
+background: #1DA1F2;
+color: #fff;
+width: 79px;
+height: 26px;
+top: 273px;
+left: 822px;
+border: none;
+cursor: pointer;
+/* display: none; */
+}
